@@ -1,0 +1,25 @@
+{
+  "name": "EtherOrcs Helper",
+  "description": "Made by Blumentopf",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://*.etherorcs.com/*"],
+      "js": ["vendor/jquery-3.6.0.min.js","content_main.js"],
+	  "css": ["css/main.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "/images/logo48.png", "test2.png" ],
+      "matches": ["https://*.etherorcs.com/*"]
+    }
+  ],
+  "icons": {
+    "16": "/images/logo16.png",
+    "32": "/images/logo32.png",
+    "48": "/images/logo48.png",
+    "128": "/images/logo128.png"
+  }
+}
