@@ -1,3 +1,27 @@
+body{
+	counter-reset: inventorybutton;
+}
+.character-select-dialog .inventory button{
+	position: relative;
+}
+.character-select-dialog .inventory button::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 3px;
+	background-color: #000;
+	color: #ff0;
+	counter-increment: inventorybutton;                  
+	content: counter(inventorybutton); 
+}
+#loadout{
+	padding: 5px;
+	background-color: rgb(33, 161, 29);
+	cursor: pointer;
+	max-width: 120px;
+	margin:auto;
+}
+
 a.blumActive{
 	text-decoration:underline;
 }
@@ -42,4 +66,51 @@ a.blumActive{
 }
 #blumMenu ::marker{
 	content: "";
+}
+#recipes-subheader{
+	background: #1f202a;
+}
+#crafting .recipes nav{
+	height: 98%;
+}
+
+#recipes-subheader{
+	line-height:18px !important;
+}
+.recipe-item-preview{
+	display: none;
+}
+.recipeFilter{
+	padding: 5px 0;
+}
+
+.recipeFilter a{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 5px;
+}
+.recipeFilter a.blumActive, .equippable{
+	color: #0f0;
+}
+
+.character-overview .inventory {
+    width: 660px !important;
+    max-height: 320px !important;
+}
+
+.itemDetails div{
+	padding-left: 0.5rem;
+}
+
+.itemDetails div.itemDetailsHeader{
+	padding-left: 0; 
+}
+
+.tile-wrapper .player:after{
+	/*background: radial-gradient(transparent 30px,rgba(0,0,0,.9) 5%);*/
+	background: transparent !important;
+}
+
+*{
+  animation-delay: 0s !important;
 }

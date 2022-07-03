@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.etherorcs.com/*"],
-      "js": ["vendor/jquery-3.6.0.min.js","content_main.js"],
+      "js": ["vendor/jquery-3.6.0.min.js","settings.js","content_main.js"],
 	  "css": ["css/main.css"]
     }
   ],
