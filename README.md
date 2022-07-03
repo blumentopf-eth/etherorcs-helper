@@ -15,4 +15,4 @@ Chrome Extension for EtherOrcs. Adds some QOL improvements to https://etherorcs.
 3. Replace the `0` values with the according id/numbers, `id` = you characters #id `ar` = armor, `mh` = mainhand, `oh` = offhand
 4. Save your changes and reload the extension in `chrome://extensions/`
 5. Visit `https://dungeons.etherorcs.com/?start` and press `Use Loadout`
-6. Check every if every character was equipped correctly
+6. Check if every character was equipped correctly
