@@ -114,3 +114,7 @@ a.blumActive{
 *{
   animation-delay: 0s !important;
 }
+.character-bar > div{
+	max-width: 1130px;
+	margin: auto;
+}
