@@ -16,3 +16,6 @@ Chrome Extension for EtherOrcs. Adds some QOL improvements to https://etherorcs.
 4. Save your changes and reload the extension in `chrome://extensions/`
 5. Visit `https://dungeons.etherorcs.com/?start` and press `Use Loadout`
 6. Check if every character was equipped correctly
+
+## Firefox Extension
+https://github.com/ExiledVegan/etherorcs-helper (Please be aware that this fork is not managed by me!)
